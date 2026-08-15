@@ -164,7 +164,12 @@ nav a:hover {
 
 }
 @media (max-width: 600px) {
-p {
+body {
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
+    }
+    p {
     font-size: 20px;
     line-height: 1.5;
 }
