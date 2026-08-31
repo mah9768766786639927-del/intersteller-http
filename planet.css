@@ -196,11 +196,17 @@ th {
         width: 100%;
         padding: 20px 10px;
         margin: 25px auto;
+        -webkit-tap-highlight-color: transparent;
+
+        outline: none;
     }
 
     h1 {
         margin-bottom: 20px;
         font-size: 36px;
+        -webkit-tap-highlight-color: transparent;
+
+        outline: none;
     }
 
     .planet-image {
@@ -268,10 +274,16 @@ th {
 
     .planet-page {
         padding: 15px 7px;
+        -webkit-tap-highlight-color: transparent;
+
+        outline: none;
     }
 
     h1 {
         font-size: 32px;
+        -webkit-tap-highlight-color: transparent;
+
+        outline: none;
     }
 
     .planet-image {
