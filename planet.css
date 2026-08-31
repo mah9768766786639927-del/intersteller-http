@@ -248,10 +248,16 @@ th {
 
     nav {
         padding: 10px 15px;
+        -webkit-tap-highlight-color: transparent;
+
+        outline: none;
     }
 
     nav a {
         font-size: 18px;
+        -webkit-tap-highlight-color: transparent;
+
+        outline: none;
     }
 
     .planet-page {
