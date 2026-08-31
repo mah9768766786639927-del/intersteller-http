@@ -180,10 +180,16 @@ th {
 
     nav {
         padding: 12px 20px;
+        -webkit-tap-highlight-color: transparent;
+
+        outline: none;
     }
 
     nav a {
         font-size: 20px;
+        -webkit-tap-highlight-color: transparent;
+
+        outline: none;
     }
 
     .planet-page {
