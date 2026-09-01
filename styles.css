@@ -17,10 +17,10 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
-.input{
+input{
     font-size: 30px;
 }
-.button{
+button{
     font-size: 30px;
     background-color: cyan;
 }
@@ -177,10 +177,10 @@ body {
         background-position: center;
         background-attachment: scroll;
     }
-    .input{
+    input{
         font-size: 25px;
     }
-    .button{
+    button{
         font-size: 25px;
         background-color: cyan;
     }
