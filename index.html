@@ -7,6 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+     <script>
+               function searchPlanet() {
+    const search = document.getElementById("planetSearch").value
+        .trim()
+        .toLowerCase();
+
+    const planets = {
+        mercury: "mercury.html",
+        venus: "venus.html",
+        earth: "earth.html",
+        mars: "mars.html",
+        jupiter: "jupiter.html",
+        saturn: "saturn.html",
+        uranus: "uranus.html",
+        neptune: "neptune.html",
+        pluto: "pluto.html"
+    };
+
+    if (planets[search]) {
+        window.location.href = planets[search];
+    } else {
+        alert("Planet not found!");
+    }
+}
+        </script>
 </head>
 <body>
 <nav>
@@ -19,6 +44,9 @@
     <p>Explore and Learn About our solar system🔭🚀</p>
     <p>click on any planet🌏</p>
     <p>Know more<a href="about.html">About</a>The program</p>
+      <input type="text" id="planetSearch" placeholder="Search for a planet...">
+<button onclick="searchPlanet()">Search</button>
+
 <div class="planets">
 
     <div class="planet-card">
