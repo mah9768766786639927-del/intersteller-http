@@ -17,10 +17,10 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
-input{
+.input{
     font-size: 50px;
 }
-button{
+.button{
     font-size: 50px;
     background-color: cyan;
 }
